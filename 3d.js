@@ -25,7 +25,7 @@ function init() {
     // Create the renderer and attach it to the canvas
     const canvas = document.getElementById('myCanvas');
     renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
-    renderer.setSize(400, 400);
+    renderer.setSize(300, 300);
     renderer.setClearColor(0x333333); // Set the background color
     renderer.shadowMap.enabled = true; // Enable shadow mapping
 
