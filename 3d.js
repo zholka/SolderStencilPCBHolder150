@@ -211,8 +211,8 @@ function adjustPlate(width, length, height) {
     //    let maxY = 118;
 
 //For 176 - Pusa MK4(S) 
-    let maxX = 174;
-    let maxY = 174;
+    let maxX = 200;
+    let maxY = 200;
 
     let fingerX = width > 97 ? 8 : 10;
     let fingerY = 20;
