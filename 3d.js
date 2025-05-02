@@ -25,7 +25,7 @@ function init() {
     // Create the renderer and attach it to the canvas
     const canvas = document.getElementById('myCanvas');
     renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
-    renderer.setSize(300, 300);
+    renderer.setSize(400, 400);
     renderer.setClearColor(0x333333); // Set the background color
     renderer.shadowMap.enabled = true; // Enable shadow mapping
 
@@ -343,7 +343,7 @@ function adjustCanvasSize() {
     // Calculate the available size inside the container
     const size = container.clientWidth - paddingWidth;
 
-    const sizeConstant = 640;
+    const sizeConstant = 480;
 
     // Adjust the camera aspect ratio and frustum
     camera.left = sizeConstant / -2;
