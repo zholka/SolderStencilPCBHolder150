@@ -111,7 +111,7 @@ function loadFlapSTLModel(isLeft = true) {
             flapRight = mesh;
         }
 
-        mesh.position.x = isLeft ? -97 : 97;
+        mesh.position.x = isLeft ? -120 : 120;
         if(isLeft){
             mesh.rotation.z = -Math.PI;
         }
