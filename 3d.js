@@ -18,7 +18,7 @@ let currentX, currentY, currentZ;
 function init() {
     // Create the scene and the camera
     scene = new THREE.Scene();
-    camera = new THREE.OrthographicCamera(300, 300, 300, 300, 0.001, 1000);
+    camera = new THREE.OrthographicCamera(600, 600, 600, 600, 0.001, 1000);
     camera.zoom = 2.9;
     camera.updateProjectionMatrix();
 
