@@ -187,7 +187,8 @@ function createCubes() {
 
     const baseMaterial = new THREE.MeshStandardMaterial({ color: 0x0a6070 });
     const basePosition = { x: 0, y: 0, z: -0.8 };
-    const baseScale = { x: 118, y: 118, z: 2 };
+//    const baseScale = { x: 118, y: 118, z: 2 };   //For 120
+    const baseScale = { x: 174, y: 174, z: 2 };   //For 176 - Pusa MK4(S)
 
     const baseGeometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
     let baseMesh = new THREE.Mesh(baseGeometry, baseMaterial);
@@ -205,8 +206,13 @@ function adjustPlate(width, length, height) {
     currentY = length;
     currentZ = height;
 
-    let maxX = 118;
-    let maxY = 118;
+    //For 120
+    //    let maxX = 118;
+    //    let maxY = 118;
+
+//For 176 - Pusa MK4(S) 
+    let maxX = 174;
+    let maxY = 174;
 
     let fingerX = width > 97 ? 8 : 10;
     let fingerY = 20;
