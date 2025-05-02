@@ -343,7 +343,7 @@ function adjustCanvasSize() {
     // Calculate the available size inside the container
     const size = container.clientWidth - paddingWidth;
 
-    const sizeConstant = 480;
+    const sizeConstant = 240;
 
     // Adjust the camera aspect ratio and frustum
     camera.left = sizeConstant / -2;
