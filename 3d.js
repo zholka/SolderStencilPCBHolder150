@@ -18,14 +18,14 @@ let currentX, currentY, currentZ;
 function init() {
     // Create the scene and the camera
     scene = new THREE.Scene();
-    camera = new THREE.OrthographicCamera(200, 200, 200, 200, 0.001, 1000);
+    camera = new THREE.OrthographicCamera(300, 300, 300, 300, 0.001, 1000);
     camera.zoom = 2.9;
     camera.updateProjectionMatrix();
 
     // Create the renderer and attach it to the canvas
     const canvas = document.getElementById('myCanvas');
     renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
-    renderer.setSize(200, 200);
+    renderer.setSize(300, 300);
     renderer.setClearColor(0x333333); // Set the background color
     renderer.shadowMap.enabled = true; // Enable shadow mapping
 
